@@ -6,7 +6,8 @@ import {
   SharedService,
   SettingsService,
   UsuarioService,
-  LoginGuardGuard
+  LoginGuardGuard,
+  SubirArchivoService
 } from './service.index';
 
 @NgModule({
@@ -16,7 +17,8 @@ import {
     SharedService,
     SettingsService,
     UsuarioService,
-    LoginGuardGuard
+    LoginGuardGuard,
+    SubirArchivoService
   ],
   imports: [
     CommonModule,
