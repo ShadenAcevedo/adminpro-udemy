@@ -5,7 +5,7 @@ import { SharedModule } from '../shared/shared.module';
 import { PipesModule } from '../pipes/pipes.module';
 import { PAGES_ROUTES } from './pages.routes';
 
-import { PagesComponent } from './pages.component';
+// import { PagesComponent } from './pages.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ProgressComponent } from './progress/progress.component';
 import { Graficas1Component } from './graficas1/graficas1.component';
@@ -29,7 +29,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        PagesComponent,
+        // PagesComponent,
         IncrementadorComponent,
         GraficoDonaComponent,
         AccountSettingsComponent,
@@ -37,7 +37,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
         RxjsComponent,
         ProfileComponent,
         UsuariosComponent,
-        ModalUploadComponent,
+        // ModalUploadComponent,
         HospitalesComponent,
         MedicosComponent,
         MedicoComponent,
@@ -47,7 +47,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
-        PagesComponent
+        // PagesComponent
     ],
     imports: [
         CommonModule,
